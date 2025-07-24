@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Random Word Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <nav>
+                <h1>RANDOM WORD GENERATOR</h1>
+            </nav>
+        </div>
+
+        <div class="search">
+            <button class="btn" onclick="generateRandom()">Generate</button>
+            <div id="output" class="service" style="margin-top: 20px;">
+                <h3 id="word">Word:</h3>
+                <p id="meaning">Meaning:</p>
+                <p id="synonyms">Synonyms:</p>
+                <p id="antonyms">Antonyms:</p>
+            </div>
+        </div>
+        
+        <div class="servicesContainer">
+            <div class="serviceList">
+                <div class="serviceCard">
+                    <h3>WHY?</h3>
+                    <p>It helps to enhance your vocabulary and understanding of unfamiliar words.</p>
+                </div>
+                <div class="serviceCard">
+                    <h3>WHAT?</h3>
+                    <p>A haul of intermediate and advanced words with meanings, synonyms, antonyms, and usage examples.</p>
+                </div>
+                <div class="serviceCard">
+                    <h3>HOW?</h3>
+                    <p>Click the generate button to get a new word with its details.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
